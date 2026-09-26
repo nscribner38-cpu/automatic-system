@@ -1,0 +1,14 @@
+# Code and docs are stored with LF endings and checked out with LF on every OS,
+# so file checksums match between Windows and Linux.
+*.py   text eol=lf
+*.md   text eol=lf
+*.toml text eol=lf
+*.txt  text eol=lf
+*.json text eol=lf
+.gitignore     text eol=lf
+.gitattributes text eol=lf
+
+# Data files are stored byte-for-byte (git never rewrites their line endings),
+# so checksums recorded in ledgers stay valid.
+*.csv   -text
+*.jsonl -text
