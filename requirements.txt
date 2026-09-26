@@ -1,0 +1,8 @@
+# Pinned versions verified in Phase 0 (Python 3.12). Install with:
+#   .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+nflreadpy==0.1.5
+polars==1.44.2
+pyarrow==25.0.1
+requests==2.34.2
+pytest==8.4.2
+tzdata==2025.2

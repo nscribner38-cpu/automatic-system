@@ -1,0 +1,14 @@
+# Python / tooling
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Secrets: the Odds API key lives in an environment variable, never in the repo
+.env
+
+# Local data: DK salary exports, API caches and file backups stay on your PC
+data/raw/
+data/cache/
+.backups/
